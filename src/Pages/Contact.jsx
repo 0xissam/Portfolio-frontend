@@ -1,5 +1,6 @@
 import React from 'react'
 import PagesStyle from '../components/PagesStyle'
+import Adv from '../components/Adv'
 
 function Contact() {
     return (
@@ -58,6 +59,7 @@ function Contact() {
                     </div>
                 </div>
             </section>
+            <Adv/>
         </>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import PagesStyle from '../components/PagesStyle'
+import Adv from '../components/Adv'
 
 function Pricing() {
     return (
@@ -61,6 +62,8 @@ function Pricing() {
                 </div>
 
             </section>
+
+        <Adv/>
 
         </>
     )
