@@ -4,6 +4,8 @@ import Home from './Pages/Home'
 import Aboutus from './Pages/Aboutus';
 import Pricing from './Pages/Pricing';
 import Contact from './Pages/Contact';
+import Login from './components/Login';
+import Signup from './components/Signup';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
           <Route path='about' element={<Aboutus />} />
           <Route path='pricing' element={<Pricing />} />
           <Route path='contact' element={<Contact />}/>
+          <Route path='login' element={<Login />} />
+          <Route path='register' element={<Signup />} />
         </Route>
       </Routes>
 

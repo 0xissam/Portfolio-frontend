@@ -66,12 +66,16 @@ function Sectiontoo() {
               <span />
             </div>
             <h4>Why Choose Our Platform?</h4>
-            <p>
+            <p style={{
+              color: 'black'
+            }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
               dictum risus, non suscipit arcu. Quisque aliquam posuere tortor,
               sit amet convallis nunc scelerisque in.
             </p>
-            <p>
+            <p style={{
+              color: 'black'
+            }}>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
               eius molestiae facere, natus reprehenderit eaque eum, autem ipsam.
               Magni, error. Tempora odit laborum iure inventore possimus

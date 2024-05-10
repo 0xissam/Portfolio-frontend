@@ -15,7 +15,9 @@ function Contact() {
                                     <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
                                 </div>
                                 <h2 className="wow fadeInUp" data-wow-delay="0.3s">Contact With Us</h2>
-                                <p className="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                                <p className="wow fadeInUp" style={{
+                                    color: 'black'
+                                }} data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
                             </div>
                         </div>
                     </div>
@@ -31,17 +33,17 @@ function Contact() {
 
                                         <div className="col-12 col-md-6">
                                             <div className="group wow fadeInUp" data-wow-delay="0.2s">
-                                                <input type="text" className='form-control' name="name" id="name" placeholder='Name' required/>
+                                                <input type="text" className='form-control' name="name" id="name" placeholder='Name' required />
                                             </div>
                                         </div>
                                         <div className="col-12 col-md-6">
                                             <div className="group wow fadeInUp" data-wow-delay="0.3s">
-                                                <input type="text" className='form-control' name="email" id="email" placeholder='Email' required/>
+                                                <input type="text" className='form-control' name="email" id="email" placeholder='Email' required />
                                             </div>
                                         </div>
                                         <div className="col-12">
                                             <div className="group wow fadeInUp" data-wow-delay="0.4s">
-                                                <input type="text" className='form-control' name="subject" id="subject" placeholder='Subject' required/>
+                                                <input type="text" className='form-control' name="subject" id="subject" placeholder='Subject' required />
                                             </div>
                                         </div>
                                         <div className="col-12">

@@ -22,7 +22,9 @@ function Testimonial() {
               <span />
             </div>
             <h2>Your Success, Our Inspiration</h2>
-            <p>
+            <p style={{
+              color: 'black'
+            }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
               accumsan nisi Ut ut felis congue nisl hendrerit commodo.{" "}
             </p>
@@ -46,7 +48,9 @@ function Testimonial() {
               {/* Testimonial Feedback Text */}
               <div className="testimonial-description">
                 <div className="testimonial_text">
-                  <p>
+                  <p style={{
+              color: 'black'
+            }}>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Error nostrum adipisci porro quisquam. Rem, earum, tenetur?
                     Architecto et, earum repudiandae.

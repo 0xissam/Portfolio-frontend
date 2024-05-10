@@ -77,15 +77,15 @@ function Header() {
               </li>
             </ul>
             {/* Button */}
-            <a
-              href="#test-popup"
+            <Link
+              to="/login"
               className="open-popup-link btn login-btn mr-im"
             >
               Log in
-            </a>
-            <a href="#signup-popup" className="open-signup-link btn login-btn">
+            </Link>
+            <Link to="/register" className="open-signup-link btn login-btn">
               Signup{" "}
-            </a>
+            </Link>
           </div>
           {/* Nav End */}
         </div>

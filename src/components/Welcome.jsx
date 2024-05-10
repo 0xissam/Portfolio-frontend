@@ -30,7 +30,9 @@ function Welcome() {
             <h1 className="wow fadeInUp" data-wow-delay="0.2s">
               Online CV Builder With Creative Templates.
             </h1>
-            <p className="wow fadeInUp" data-wow-delay="0.3s">
+            <p className="wow fadeInUp" style={{
+              color: 'black'
+            }} data-wow-delay="0.2s">
               Our Perfect resume builder takes the hassle out of resume writing.
               Choose from several templates and follow easy prompts to create
               the perfect job-ready resume.

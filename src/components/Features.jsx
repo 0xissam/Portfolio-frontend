@@ -29,7 +29,9 @@ function Features() {
         <h2 className="wow fadeInUp" data-wow-delay="0.3s">
           Our Main Features
         </h2>
-        <p className="wow fadeInUp" data-wow-delay="0.4s">
+        <p className="wow fadeInUp" style={{
+              color: 'black'
+            }} data-wow-delay="0.4s">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
           accumsan nisi Ut ut felis congue nisl hendrerit commodo.
         </p>
@@ -46,7 +48,9 @@ function Features() {
               <img src={firstimg} alt="" />
             </div>
             <h6>Proven CV Templates to increase Hiring Chance</h6>
-            <p>
+            <p style={{
+              color: 'black'
+            }}>
               Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque
               quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing
               elit.
@@ -64,7 +68,9 @@ function Features() {
               <img src={secondimg} alt="" />
             </div>
             <h6>Creative, Modern and Clean Templates Design</h6>
-            <p>
+            <p style={{
+              color: 'black'
+            }}>
               Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque
               quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing
               elit.
@@ -82,7 +88,9 @@ function Features() {
               <img src={therdimg} alt="" />
             </div>
             <h6>Easy and Intuitive Online CV and Resume Builder </h6>
-            <p>
+            <p style={{
+              color: 'black'
+            }}>
               Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque
               quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing
               elit.
@@ -100,7 +108,9 @@ function Features() {
               <img src={forthimg} alt="" />
             </div>
             <h6>Free to use. Developed by hiring professionals.</h6>
-            <p>
+            <p style={{
+              color: 'black'
+            }}>
               Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque
               quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing
               elit.
@@ -118,7 +128,9 @@ function Features() {
               <img src={fifthimg} alt="" />
             </div>
             <h6>Recruiter Approved Phrases with Module Notification</h6>
-            <p>
+            <p style={{
+              color: 'black'
+            }}>
               Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque
               quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing
               elit.
@@ -136,7 +148,9 @@ function Features() {
               <img src={sixthimg} alt="" />
             </div>
             <h6>Fast Easy CV and Resume Formatting</h6>
-            <p>
+            <p style={{
+              color: 'black'
+            }}>
               Lorem ipsum dolor sit amet, consecte adipiscing elit. Nulla neque
               quam, maxim us ut accumsan ut, posuere sit Lorem ipsum adipiscing
               elit.
