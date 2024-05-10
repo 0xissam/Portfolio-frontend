@@ -38,10 +38,7 @@ function Header() {
         {/* Logo */}
         <a className="nav-brand" href="index-2.html">
           {/* <img src={logo} alt="logo" /> */}
-          <span><span style={{
-           color: '#3e94e4'
-
-          }}>Nex</span>CV</span>
+          <span>NexCV</span>
         </a>
         {/* Navbar Toggler */}
         <div onClick={()=> Togeldfunc()} className="classy-navbar-toggler">
@@ -79,12 +76,12 @@ function Header() {
             {/* Button */}
             <Link
               to="/login"
-              className="open-popup-link btn login-btn mr-im"
+              className="btn login-btn mr-im"
             >
               Log in
             </Link>
-            <Link to="/register" className="open-signup-link btn login-btn">
-              Signup{" "}
+            <Link to="/register" className="btn login-btn">
+              Signup
             </Link>
           </div>
           {/* Nav End */}

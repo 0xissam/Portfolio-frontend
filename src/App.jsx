@@ -4,8 +4,8 @@ import Home from './Pages/Home'
 import Aboutus from './Pages/Aboutus';
 import Pricing from './Pages/Pricing';
 import Contact from './Pages/Contact';
-import Login from './components/Login';
-import Signup from './components/Signup';
+import Login from './Pages/Login';
+import Signup from './Pages/Signup';
 
 
 function App() {
