@@ -4,6 +4,7 @@ import Sectiontoo from '../components/Sectiontoo'
 import Aboutus from './Aboutus'
 import Features from '../components/Features'
 import Testimonial from '../components/Testimonial'
+import Oct from '../components/Oct'
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
             <Sectiontoo />
             <Aboutus />
             <Features />
+            <Oct/>
             <Testimonial />
         </>
     )

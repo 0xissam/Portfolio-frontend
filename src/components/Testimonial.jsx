@@ -2,7 +2,6 @@ import React from 'react'
 import firstimg from '../img/test-img/1.jpg'
 import secondimg from '../img/test-img/2.jpg'
 import theardimg from '../img/test-img/3.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Testimonial() {
   return (
