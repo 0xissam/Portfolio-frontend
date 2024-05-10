@@ -25,16 +25,12 @@ function Header() {
   }, []);
 
   function Togeldfunc() {
-    settogeld(true);
-  }
-
-  function Togeldfuncoff() {
-    settogeld(false);
+    settogeld(!togeld);
   }
 
 
   return (
-    <header className={`header-area fadeInDown ${isSticky ? 'sticky' : ''}`}>
+    <header className={`header-area ${isSticky ? 'sticky' : ''}`}>
   <div className="classy-nav-container dark breakpoint-off left">
     <div className="container">
       {/* Classy Menu */}
@@ -58,7 +54,7 @@ function Header() {
         {/* Menu */}
         <div className={`classy-menu ${togeld ? 'menu-on' : ''}`}>
           {/* close btn */}
-          <div onClick={()=> Togeldfuncoff()} className="classycloseIcon">
+          <div onClick={()=> Togeldfunc()} className="classycloseIcon">
             <div className="cross-wrap">
               <span className="top" />
               <span className="bottom" />
