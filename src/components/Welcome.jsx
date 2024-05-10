@@ -2,7 +2,7 @@ import React from 'react'
 import sideimage from '../img/svg/img-dollar.svg'
 import banner from '../img/core-img/banner2.png'
 
-function Welcom() {
+function Welcome() {
   return (
     <>
   {/* ##### Welcome Area Start ##### */}
@@ -60,4 +60,4 @@ function Welcom() {
   )
 }
 
-export default Welcom
+export default Welcome

@@ -13,7 +13,7 @@ function Footer() {
             <div className="copywrite_text fadeInUp" data-wow-delay="0.2s">
               <div className="footer-logo">
                 <a href="#">
-                  <img src="img/core-img/logo.png" alt="logo" /> CV Builder{" "}
+                  <h3>NexCV</h3>
                 </a>
               </div>
               <p>

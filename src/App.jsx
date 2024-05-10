@@ -1,27 +1,27 @@
-import Header from './components/Header'
-import Login from './components/Login'
-import Singup from './components/Singup'
-import Welcom from './components/Welcom'
-import Sectiontoo from './components/Sectiontoo'
-import Aboutus from './components/Aboutus'
-import Footer from './components/Footer'
-import Testimonial from './components/Testimonial'
-import Features from './components/Features'
+import { Route, Routes, useLocation } from 'react-router-dom'
+import Layout from './Layout/Layout'
+import Home from './Pages/Home'
+import Aboutus from './Pages/Aboutus';
+import Pricing from './Pages/Pricing';
+import Contact from './Pages/Contact';
 
 
 function App() {
-
+  const location = useLocation();
   return (
     <>
-    <Header/>
-    {/* <Login/>
+
+      {/* <Login/>
     <Singup/> */}
-    <Welcom/>
-    <Sectiontoo/>
-    <Aboutus/>
-    <Features/>
-    <Testimonial/>
-    <Footer/>
+      <Routes location={location} key={location.pathname}>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path='about' element={<Aboutus />} />
+          <Route path='pricing' element={<Pricing />} />
+          <Route path='contact' element={<Contact />}/>
+        </Route>
+      </Routes>
+
     </>
   )
 }

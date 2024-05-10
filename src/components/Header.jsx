@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../img/icons/check.png'
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -40,7 +41,11 @@ function Header() {
       <nav className="classy-navbar justify-content-between" id="dreamNav">
         {/* Logo */}
         <a className="nav-brand" href="index-2.html">
-          <img src={logo} alt="logo" />
+          {/* <img src={logo} alt="logo" /> */}
+          <span><span style={{
+           color: '#3e94e4'
+
+          }}>Nex</span>CV</span>
         </a>
         {/* Navbar Toggler */}
         <div onClick={()=> Togeldfunc()} className="classy-navbar-toggler">
@@ -63,19 +68,16 @@ function Header() {
           <div className="classynav">
             <ul id="nav">
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/about">About Us</a>
+                <Link to="/about">About Us</Link>
               </li>
               <li>
-                <a href="/pricing">Pricing</a>
+                <Link to="/pricing">Pricing</Link>
               </li>
               <li>
-                <a href="/templates">Templates</a>
-              </li>
-              <li>
-                <a href="/contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
             {/* Button */}

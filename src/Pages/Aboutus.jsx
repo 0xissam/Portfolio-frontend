@@ -6,8 +6,9 @@ function Aboutus() {
   return (
     <>
   {/* ##### About Us Area Start ##### */}
-  <section className="about-us-area section-padding-100 clearfix">
+  <section className="about-us-area section-padding-100 clearfix mt-5">
     <div className="container">
+      <h2 className='bold text-center h2-color-black'>About Us</h2>
       <div className="row align-items-center">
         <div className="col-12 col-lg-6">
           <div className="who-we-contant">

@@ -687,7 +687,7 @@ ol {
     padding: 0 20px;
     min-width: 100px;
     color: #fff !important;
-    background: rgb(62, 148, 228);
+    background: #3e94e4;
     height: 35px;
     border-radius: 5px;
     border: 1px solid #fff !important;
@@ -4425,6 +4425,9 @@ label{
 
     .tags .tag-span i{
         cursor: pointer;
+    }
+    .h2-color-black{
+        color: black;
     }
     h2{
         color: #09229c

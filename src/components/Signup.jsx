@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Singup() {
+function Signup() {
   return (
     <>
   {/* signup popup form so: */}
@@ -81,4 +81,4 @@ function Singup() {
   )
 }
 
-export default Singup
+export default Signup
