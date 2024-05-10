@@ -1,8 +1,10 @@
 import React from 'react'
+import PagesStyle from '../components/PagesStyle'
 
 function Contact() {
     return (
         <>
+            <PagesStyle title="Contact" main="Home"/>
             <section className="section-padding-100 contact_us_area" id="contact">
                 <div className="container">
                     <div className="row">

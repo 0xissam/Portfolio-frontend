@@ -34,7 +34,7 @@ function Header() {
 
 
   return (
-    <header className={`header-area ${isSticky ? 'sticky' : ''}`}>
+    <header className={`header-area fadeInDown ${isSticky ? 'sticky' : ''}`}>
   <div className="classy-nav-container dark breakpoint-off left">
     <div className="container">
       {/* Classy Menu */}

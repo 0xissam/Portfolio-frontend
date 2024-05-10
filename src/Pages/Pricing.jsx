@@ -1,8 +1,10 @@
 import React from 'react'
+import PagesStyle from '../components/PagesStyle'
 
 function Pricing() {
     return (
         <>
+            <PagesStyle title="Pricing" main="Home"/>
             <section className="pricing section-padding-100-70 mt-5">
 
                 <div className="container">

@@ -1,12 +1,10 @@
 import React from 'react'
 import cv from '../img/core-img/cv.png'
 import check from '../img/icons/check.png'
-import PagesStyle from '../components/PagesStyle'
 
 function Aboutus() {
   return (
     <>
-    <PagesStyle title="About us" main="Home"/>
   {/* ##### About Us Area Start ##### */}
   <section className="about-us-area section-padding-100 clearfix mt-5">
     <div className="container">
