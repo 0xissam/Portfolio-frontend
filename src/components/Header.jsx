@@ -31,65 +31,67 @@ function Header() {
 
   return (
     <header className={`header-area ${isSticky ? 'sticky' : ''}`}>
-  <div className="classy-nav-container dark breakpoint-off left">
-    <div className="container">
-      {/* Classy Menu */}
-      <nav className="classy-navbar justify-content-between" id="dreamNav">
-        {/* Logo */}
-        <a className="nav-brand" href="index-2.html">
-          {/* <img src={logo} alt="logo" /> */}
-          <span>NexCV</span>
-        </a>
-        {/* Navbar Toggler */}
-        <div onClick={()=> Togeldfunc()} className="classy-navbar-toggler">
-          <span className={`navbarToggler ${togeld ? 'active' : ''}`}>
-            <span />
-            <span />
-            <span />
-          </span>
-        </div>
-        {/* Menu */}
-        <div className={`classy-menu ${togeld ? 'menu-on' : ''}`}>
-          {/* close btn */}
-          <div onClick={()=> Togeldfunc()} className="classycloseIcon">
-            <div className="cross-wrap">
-              <span className="top" />
-              <span className="bottom" />
+      <div className="classy-nav-container bg-primary text-light dark breakpoint-off left">
+        <div className="container">
+          {/* Classy Menu */}
+          <nav className="classy-navbar justify-content-between" id="dreamNav">
+            {/* Logo */}
+            <Link className="nav-brand text-light" to="/">
+              {/* <img src={logo} alt="logo" /> */}
+              <span>NexCV</span>
+            </Link>
+            {/* Navbar Toggler */}
+            <div onClick={() => Togeldfunc()} className="classy-navbar-toggler">
+              <span className={`navbarToggler ${togeld ? 'active' : ''}`}>
+                <span />
+                <span />
+                <span />
+              </span>
             </div>
-          </div>
-          {/* Nav Start */}
-          <div className="classynav">
-            <ul id="nav">
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About Us</Link>
-              </li>
-              <li>
-                <Link to="/pricing">Pricing</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact</Link>
-              </li>
-            </ul>
-            {/* Button */}
-            <Link
-              to="/login"
-              className="btn login-btn mr-im"
-            >
-              Log in
-            </Link>
-            <Link to="/register" className="btn login-btn">
-              Signup
-            </Link>
-          </div>
-          {/* Nav End */}
+            {/* Menu */}
+            <div className={`classy-menu ${togeld ? 'menu-on' : ''}`}>
+              {/* close btn */}
+              <div onClick={() => Togeldfunc()} className="classycloseIcon">
+                <div className="cross-wrap">
+                  <span className="top" />
+                  <span className="bottom" />
+                </div>
+              </div>
+              {/* Nav Start */}
+              <div className="classynav">
+                <ul id="nav">
+                  <li>
+                    <Link className='text-light' to="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link className='text-light' to="/about">About Us</Link>
+                  </li>
+                  <li>
+                    <Link className='text-light' to="/pricing">Pricing</Link>
+                  </li>
+                  <li>
+                    <Link className='text-light' to="/contact">Contact</Link>
+                  </li>
+                </ul>
+                {/* Button */}
+                <Link
+                  to="/login"
+                  className="btn login-btn"
+                >
+                  Log in
+                </Link>
+                <Link to="/register" className="btn login-btn" style={{
+                  marginLeft: '8px'
+                }}>
+                  Signup
+                </Link>
+              </div>
+              {/* Nav End */}
+            </div>
+          </nav>
         </div>
-      </nav>
-    </div>
-  </div>
-</header>
+      </div>
+    </header>
 
   )
 }
