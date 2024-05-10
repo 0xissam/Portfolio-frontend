@@ -122,6 +122,10 @@ a:active {
     outline: none;
 }
 
+h1, h4 {
+    color: #13287e;
+}
+
 li {
     list-style: none;
 }
@@ -4506,4 +4510,8 @@ label{
     /*********/
     .ali-bg{
         background-color: aliceblue !important
+    }
+
+    p {
+        color: #888;
     }

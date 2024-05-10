@@ -8,7 +8,49 @@ function Aboutus() {
   {/* ##### About Us Area Start ##### */}
   <section className="about-us-area section-padding-100 clearfix mt-5">
     <div className="container">
-      <h2 className='bold text-center h2-color-black'>About Us</h2>
+    <div className="section-heading text-center">
+  <div
+    className="dream-dots justify-content-center wow fadeInUp"
+    data-wow-delay="0.2s"
+    style={{
+      visibility: "visible",
+      animationDelay: "0.2s",
+      animationName: "fadeInUp"
+    }}
+  >
+    <span />
+    <span />
+    <span />
+    <span />
+    <span />
+    <span />
+    <span />
+  </div>
+  <h2
+    className="wow fadeInUp"
+    data-wow-delay="0.3s"
+    style={{
+      visibility: "visible",
+      animationDelay: "0.3s",
+      animationName: "fadeInUp"
+    }}
+  >
+    About us
+  </h2>
+  {/* <p
+    className="wow fadeInUp"
+    data-wow-delay="0.4s"
+    style={{
+      visibility: "visible",
+      animationDelay: "0.4s",
+      animationName: "fadeInUp"
+    }}
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan
+    nisi Ut ut felis congue nisl hendrerit commodo.
+  </p> */}
+</div>
+      {/* <h2 className='bold text-center h2-color-black'>About Us</h2> */}
       <div className="row align-items-center">
         <div className="col-12 col-lg-6">
           <div className="who-we-contant">
