@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function PagesStyle(props) {
   return (
@@ -42,7 +43,7 @@ export default function PagesStyle(props) {
               }}
             >
               <li className="breadcrumb-item">
-                <a href="#">{props.main}</a>
+                <Link to="/">{props.main}</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 {props.title}
