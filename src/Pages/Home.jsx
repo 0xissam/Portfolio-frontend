@@ -13,7 +13,7 @@ function Home() {
             <Sectiontoo />
             <Aboutus />
             <Features />
-            <Oct/>
+            {/* <Oct/> */}
             <Testimonial />
         </>
     )

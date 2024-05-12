@@ -22,7 +22,7 @@ function Pricing() {
                                 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.</p>
 
                                 <div className="free-7">
-                                    <span>Lets Build CV</span>
+                                    <span>Lets Analyze Your CV</span>
                                     <p style={{
                                         color: 'black'
                                     }}> with 7days of Free Trial</p>

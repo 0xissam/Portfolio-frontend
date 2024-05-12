@@ -74,7 +74,7 @@ function Aboutus() {
                       alt=""
                     />
                     <div className="foot-c-info">
-                      Proven CV Templates to increase Hiring Chance
+                      Proven CV Analyst to increase Hiring Chance
                     </div>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ function Aboutus() {
                       alt=""
                     />
                     <div className="foot-c-info">
-                      Creative and Clean Templates Design
+                      Creative and Clean Analyst by our AI
                     </div>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ function Aboutus() {
                       alt=""
                     />
                     <div className="foot-c-info">
-                      Easy and Intuitive Online CV Builder
+                      Easy and Intuitive Online CV Analyzer
                     </div>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ function Aboutus() {
                       alt=""
                     />
                     <div className="foot-c-info">
-                      Fast Easy CV and Resume Formatting
+                      Fast Easy CV and Resume Analyst
                     </div>
                   </div>
                 </div>

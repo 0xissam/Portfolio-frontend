@@ -2,6 +2,7 @@ import React from 'react'
 import firstimg from '../img/icons/d1.png'
 import secondimg from '../img/icons/d2.png'
 import theardimg from '../img/icons/d3.png'
+import { Link } from 'react-router-dom'
 
 function Sectiontoo() {
   return (
@@ -17,7 +18,7 @@ function Sectiontoo() {
                 <img src={firstimg} alt="" />
               </div>
               <h3>
-                <a href="#">Easy Online Resume Builder</a>
+                <a href="#">Easy Online Resume Analyzer</a>
               </h3>
               <div className="text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -81,9 +82,9 @@ function Sectiontoo() {
               Magni, error. Tempora odit laborum iure inventore possimus
               laboriosam qui nam. Fugit!
             </p>
-            <a className="btn dream-btn mt-30" href="templates.html">
-              lets build your cv
-            </a>
+            <Link className="btn dream-btn mt-30" to="/register">
+              lets Analyze your cv
+            </Link>
           </div>
         </div>
       </div>

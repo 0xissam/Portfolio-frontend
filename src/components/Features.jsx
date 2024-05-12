@@ -47,7 +47,7 @@ function Features() {
             <div className="service_icon">
               <img src={firstimg} alt="" />
             </div>
-            <h6>Proven CV Templates to increase Hiring Chance</h6>
+            <h6>Proven CV Analyst to increase Hiring Chance</h6>
             <p style={{
               color: 'black'
             }}>
@@ -67,7 +67,7 @@ function Features() {
             <div className="service_icon">
               <img src={secondimg} alt="" />
             </div>
-            <h6>Creative, Modern and Clean Templates Design</h6>
+            <h6>Creative and Clean Analyst by our AI</h6>
             <p style={{
               color: 'black'
             }}>
@@ -87,7 +87,7 @@ function Features() {
             <div className="service_icon">
               <img src={therdimg} alt="" />
             </div>
-            <h6>Easy and Intuitive Online CV and Resume Builder </h6>
+            <h6>Easy and Intuitive Online CV Analyzer</h6>
             <p style={{
               color: 'black'
             }}>
@@ -127,7 +127,7 @@ function Features() {
             <div className="service_icon">
               <img src={fifthimg} alt="" />
             </div>
-            <h6>Recruiter Approved Phrases with Module Notification</h6>
+            <h6>Fast Easy CV and Resume Analyst</h6>
             <p style={{
               color: 'black'
             }}>
@@ -147,7 +147,7 @@ function Features() {
             <div className="service_icon">
               <img src={sixthimg} alt="" />
             </div>
-            <h6>Fast Easy CV and Resume Formatting</h6>
+            <h6>Improved AI Capabilities from OpenAI</h6>
             <p style={{
               color: 'black'
             }}>

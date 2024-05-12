@@ -1,6 +1,7 @@
 import React from 'react'
 import sideimage from '../img/svg/img-dollar.svg'
 import banner from '../img/core-img/banner2.png'
+import { Link } from 'react-router-dom'
 
 function Welcome() {
   return (
@@ -23,24 +24,24 @@ function Welcome() {
                   />
                 </span>
                 <span className="integration-text">
-                  Discover The Easiest ways to Build Your CV!
+                  Discover The Easiest ways to Analyze Your CV!
                 </span>
               </div>
             </div>
             <h1 className="wow fadeInUp" data-wow-delay="0.2s">
-              Online CV Builder With Creative Templates.
+              Analyze your CV with NexCV.
             </h1>
             <p className="wow fadeInUp" style={{
               color: 'black'
             }} data-wow-delay="0.2s">
-              Our Perfect resume builder takes the hassle out of resume writing.
-              Choose from several templates and follow easy prompts to create
-              the perfect job-ready resume.
+              Our Perfect resume Analyzer takes the hassle out of checking whether your cv matches or is fit for your job requirements.
+              {/* Choose from several templates and follow easy prompts to create
+              the perfect job-ready resume. */}
             </p>
             <div className="dream-btn-group wow fadeInUp" data-wow-delay="0.4s">
-              <a href="#" className="btn dream-btn green-btn mr-3">
-                Choose Template
-              </a>
+              <Link to="/login" className="btn dream-btn green-btn mr-3">
+                Get Started
+              </Link>
               <a href="#" className="btn dream-btn green-btn">
                 {" "}
                 contact us
