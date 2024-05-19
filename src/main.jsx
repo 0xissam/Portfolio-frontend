@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './style.css'
+import './style1.css'
+// import './style.css'
 import { BrowserRouter as Router } from 'react-router-dom'
 // import './responsive.css'
 

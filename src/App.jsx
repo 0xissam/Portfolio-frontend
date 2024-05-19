@@ -6,6 +6,8 @@ import Pricing from './Pages/Pricing';
 import Contact from './Pages/Contact';
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
+import DashboardLayout from './Layout/dashboard/Layout';
+import DashboardHome from './components/dashboard/Home';
 
 
 function App() {
@@ -24,6 +26,9 @@ function App() {
           <Route path='login' element={<Login />} />
           <Route path='register' element={<Signup />} />
         </Route>
+          <Route path='/dashboard' element={<DashboardLayout />} >
+            <Route index element={<DashboardHome />} />
+          </Route>
       </Routes>
 
     </>
