@@ -10,7 +10,7 @@ function DashboardHome() {
                             marginLeft: '0',
                         }}>
                             <div>
-                                <h3>Welcome User</h3>
+                                <h4 className='lead'>Welcome, User</h4>
                             </div>
                             <div class="header_right mx-5 me-0 d-flex justify-content-between align-items-center">
                                 <div class="header_notification_warp d-flex align-items-center">
