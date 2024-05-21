@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style.css'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -12,11 +13,11 @@ function Footer() {
             {/* Copywrite */}
             <div className="copywrite_text fadeInUp" data-wow-delay="0.2s">
               <div className="footer-logo">
-                <a href="#">
-                  <h3>NexCV</h3>
-                </a>
+                <Link to="/">
+                  <h3 className='text-center text-light'>NexCV</h3>
+                </Link>
               </div>
-              <p>
+              <p className='text-center'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
                 ducimus voluptatibus neque illo id repellat quisquam? Autem
                 expedita earum quae laborum ipsum ad.

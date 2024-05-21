@@ -9,15 +9,10 @@ function DashboardHome() {
                             width: '100%',
                             marginLeft: '0',
                         }}>
-                            <div class="sidebar_icon d-lg-none">
-                                <i class="ti-menu"></i>
+                            <div>
+                                <h3>Welcome User</h3>
                             </div>
-                            <div class="serach_field-area">
-                                <div class="search_inner">
-                                    <h3>Welcome User</h3>
-                                </div>
-                            </div>
-                            <div class="header_right d-flex justify-content-between align-items-center">
+                            <div class="header_right mx-5 me-0 d-flex justify-content-between align-items-center">
                                 <div class="header_notification_warp d-flex align-items-center">
                                     <li>
                                         <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
@@ -35,6 +30,7 @@ function DashboardHome() {
                                         <h5>Travor James</h5>
                                         <div class="profile_info_details">
                                             <a href="#">My Profile <i class="ti-user"></i></a>
+                                            <a href="#">Create Cv <i class="ti-user"></i></a>
                                             <a href="#">Settings <i class="ti-settings"></i></a>
                                             <a href="#">Log Out <i class="ti-shift-left"></i></a>
                                         </div>
