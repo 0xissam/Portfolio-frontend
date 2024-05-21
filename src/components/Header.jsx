@@ -31,7 +31,7 @@ function Header() {
 
   return (
     <header className={`header-area ${isSticky ? 'sticky' : ''}`}>
-      <div className="classy-nav-container bg-primary text-light dark breakpoint-off left">
+      <div className="classy-nav-container bg-primary navbar-dark text-light dark breakpoint-off left">
         <div className="container">
           {/* Classy Menu */}
           <nav className="classy-navbar justify-content-between" id="dreamNav">
@@ -59,7 +59,7 @@ function Header() {
               </div>
               {/* Nav Start */}
               <div className="classynav">
-                <ul id="nav">
+                <ul id="nav" className='d-lg-block d-none'>
                   <li>
                     <Link className='text-light' to="/">Home</Link>
                   </li>
@@ -73,18 +73,42 @@ function Header() {
                     <Link className='text-light' to="/contact">Contact</Link>
                   </li>
                 </ul>
-                {/* Button */}
-                <Link
-                  to="/login"
-                  className="btn login-btn"
-                >
-                  Log in
-                </Link>
-                <Link to="/register" className="btn login-btn" style={{
-                  marginLeft: '8px'
-                }}>
-                  Signup
-                </Link>
+
+                <ul id="nav" className='d-lg-none d-block'>
+                  <li>
+                    <Link to="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="/about">About Us</Link>
+                  </li>
+                  <li>
+                    <Link to="/pricing">Pricing</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">Contact</Link>
+                  </li>
+                  <li>
+                    <Link to="/login">Login</Link>
+                  </li>
+                  <li>
+                    <Link to="/register">Register</Link>
+                  </li>
+                </ul>
+
+                <div className='d-none d-lg-block'>
+                  {/* Button */}
+                  <Link
+                    to="/login"
+                    className="btn login-btn"
+                  >
+                    Log in
+                  </Link>
+                  <Link to="/register" className="btn login-btn" style={{
+                    marginLeft: '8px'
+                  }}>
+                    Signup
+                  </Link>
+                </div>
               </div>
               {/* Nav End */}
             </div>
